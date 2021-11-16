@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 /* Стартовий шаблон */
 
 *{     /*Внутрішні зовнішні відступи*/
@@ -40,9 +42,65 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 
+body {
+    background-color: #E5E5E5;;
+}
+
+.content {
+    width: 1440px;
+    margin: auto;
+    
+}
 
 .header {
     width: 100%;
-    height: 500px;
     background: #ED4C5C;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header-content {
+    max-width: 430px;
+    margin-right: 49px;
+    height: 264px;
+}
+
+.text1 {
+    font-weight: 600;
+    font-family: 'Lato';
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 48px;
+}
+
+.text2 {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: justify;
+    padding-bottom: 45px;
+}
+
+.icon img {
+    padding-right: 21px;
+}
+
+.slider {
+    padding: 90px 49px;
+}
+
+.content2 {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.left {
+    max-width: 430px;
 }
